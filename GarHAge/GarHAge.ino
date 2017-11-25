@@ -445,7 +445,7 @@ void dht_read_publish() {
   Serial.print(" to ");
   Serial.print(mqtt_dht_status_topic);
   Serial.println("...");
-  client.publish(mqtt_dht_status_topic, dhtPayload, true);
+  client.publish(mqtt_dht_status_topic, dhtPayload);
   
 }
 
