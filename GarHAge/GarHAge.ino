@@ -26,6 +26,8 @@
 #define D7 13
 #define D8 15
 
+const char* garhage_version = "2.0.0";
+
 const char* ssid = WIFI_SSID;
 const char* password = WIFI_PASSWORD;
 
