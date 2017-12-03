@@ -423,7 +423,7 @@ void dht_read_publish() {
   }
 
   // Convert celcius to fahrenheit
-  float tempF = tempC * 1.8 + 32;
+  float tempF = round(tempC * 1.8 + 32);
 
   // Transform variables into json
   const size_t bufferSize = JSON_OBJECT_SIZE(3);
